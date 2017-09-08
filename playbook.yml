@@ -1,0 +1,7 @@
+- hosts: graywolf.library.cmu.edu
+  tasks:
+  - name: We need a public html directory
+    file:
+      dest: public_html
+      state: directory
+      
