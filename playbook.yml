@@ -1,4 +1,4 @@
-- hosts: graywolf.library.cmu.edu
+- hosts: graywolf.library.cmu.edu, uldev.library.cmu.edu
   tasks:
   - name: We need a public html directory
     file:
