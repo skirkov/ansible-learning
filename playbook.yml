@@ -4,4 +4,7 @@
     file:
       dest: public_html
       state: directory
-      
+  - name: We need an index.html
+    copy:
+      dest: public_html/index.html
+      content: "Hello World!"
